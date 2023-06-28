@@ -1,0 +1,8 @@
+background-image = linear-gradient(
+      rgba(27, 26, 26, 0.6),
+      rgba(27, 26, 26, 0.6)
+    ),
+    url(hero.jpg)
+
+btn-color=rgb(225, 134, 43);
+h1-font-size: 62px

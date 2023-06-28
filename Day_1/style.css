@@ -1,112 +1,75 @@
-/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #d9afd9;
-  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  color: #fefefe;
+  line-height: 1.1;
+  background: linear-gradient(to right, rgb(202, 197, 192), rgb(225, 134, 43));
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Header Styles */
 header {
-  padding: 20px;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(27, 26, 26, 0.8),
+      rgba(27, 26, 26, 0.8)
+    ),
+    url(hero.jpg);
+}
+
+nav {
+  width: 1280px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  font-size: 28px;
+  padding-top: 20px;
 }
 
-header h1 {
-  margin: 0;
+.content {
+  width: 1280px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.sub-container {
+  width: 50%;
 }
 
-nav ul li {
+h1 {
+  font-size: 62px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20;
+}
+
+.btn {
   display: inline-block;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 25px;
-  color: #333;
-  margin-left: 20px;
-}
-
-/* Main Content Styles */
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-section p {
-  font-size: large;
-}
-
-.project {
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.project h3 {
-  margin: 0;
-  font-size: 20px;
-}
-
-.project p {
-  margin-top: 10px;
-  color: #777;
-}
-
-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-form input,
-form textarea {
-  width: 99%;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-form input[type='submit'] {
-  display: block;
-  width: 200px; /* Example width value */
-  height: 40px; /* Example height value */
-  background-color: #333;
-  color: #fff;
+  padding: 20px 40px;
+  background-color: rgb(225, 134, 43);
+  margin-top: 70px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 10px;
   cursor: pointer;
-  border: none;
+  transition: all 0.5s;
 }
 
-/* Footer Styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
+.btn:hover {
+  background-color: #fefefe;
+  color: #111;
 }
