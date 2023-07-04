@@ -19,7 +19,7 @@ To clone the GitHub repository and get a local copy of the files, follow these s
 4. Click on the Code button, and then click on the Copy icon to copy the repository URL.
 
 5. Return to your terminal or command prompt and run the following command:
-   git clone <repository_url>
+   git clone <repository_url>   
    Replace <repository_url> with the URL you copied in the previous step. Press Enter to execute the command.
 
 Git will download all the files from the repository and create a new directory with the repository's name in your current directory. The cloning process might take some time, depending on the repository's size and your internet connection.
