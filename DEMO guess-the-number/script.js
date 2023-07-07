@@ -25,7 +25,7 @@ document.querySelector('.number').addEventListener('click', function () {
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
-  if (score != 0) {
+  if (score > 0) {
     if (!guess) {
       document.querySelector('.message').textContent = 'No Number ⛔';
     } else if (num == guess) {
@@ -47,5 +47,6 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   } else {
     document.querySelector('.message').textContent = 'You Lost The Game';
+    document.querySelector('body').style.backgroundColor = 'red';
   }
 });
