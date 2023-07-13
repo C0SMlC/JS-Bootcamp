@@ -100,8 +100,6 @@
 
 // console.log(sum);
 
-const marks = [80, 98, 78, 78, 52, 70];
-
 // const newMarks = marks.filter(function (curr) {
 //   return curr >= 70;
 // });
@@ -115,3 +113,17 @@ const marks = [80, 98, 78, 78, 52, 70];
 // destructuring an array
 // loop over array
 // couple methods for arrays
+
+// const marks = [80, 98, 78, 78, 52, 70];
+
+// marks.forEach(function (element) {
+//   console.log(element);
+// });
+
+// Dates
+
+const date = new Date();
+console.log(date);
+
+const timestamp = Date.now();
+console.log(timestamp);

@@ -59,6 +59,7 @@ p {
 .hideDisplay {
   opacity: 0;
   visibility: 0;
+  display: none;
   transition: all 0.8s;
 }
 
